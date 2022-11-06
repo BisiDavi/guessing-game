@@ -63,7 +63,6 @@ Arrays are fixed same data type group.
 let ab:[i32;4] = [1,2,4,5]
 Arrays cannot reduce/shrink or grow/increase.
 vectors can grow/reduce in size.
-
 Array is a single chunk of memory allocated on the stack.
 
 */
@@ -86,4 +85,5 @@ fn main(){
     println!("tuple: {:?}, index(2):{:?}", tup_1, tup_1.2);
     println!("r:{:?}, s:{:?}, t:{:?}", r,s,t);
     println!("Phone OS: {:?}, same: {:?}", phones_os, same);
+    // println!("same[10] index 10:{:?}",same[10]); // not valid, index must be lesser or equal to array length.   
 }
